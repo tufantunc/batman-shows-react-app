@@ -1,0 +1,30 @@
+{
+  "name": "batman-shows",
+  "description": "A react app that shows Batman series with TVMaze api & SSR functionality.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "next",
+    "build": "./node_modules/next/dist/bin/next build",
+    "heroku-postbuild": "npm run build",
+    "start": "./node_modules/next/dist/bin/next start"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "autoprefixer": "^9.4.6",
+    "bootstrap": "^4.2.1",
+    "isomorphic-unfetch": "^3.0.0",
+    "next": "^7.0.2",
+    "node-sass": "^4.11.0",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-redux": "^6.0.0",
+    "redux": "^4.0.1",
+    "redux-devtools-extension": "^2.13.7",
+    "redux-thunk": "^2.3.0",
+    "sanitize-html": "^1.20.0"
+  },
+  "devDependencies": {}
+}
